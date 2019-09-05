@@ -1,6 +1,6 @@
 {
   "name": "stream-value-reader",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Concat a stream and use the value multiple times",
   "main": "index.js",
   "scripts": {
