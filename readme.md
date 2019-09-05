@@ -1,6 +1,8 @@
 # stream-value-reader
 Small wrapper around [`concat-stream`](https://npmjs.com/package/concat-stream) and [`pump`](https://npmjs.com/package/pump) for those cases when you need to concat a stream and use its value multiple times, independent of the state of the stream.
 
+Honestly, I just didn't find a better way to solve this and couldn't find anything.
+
 ## Installation
 ```
 npm i stream-value-reader
