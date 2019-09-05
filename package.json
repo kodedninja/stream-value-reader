@@ -1,0 +1,26 @@
+{
+  "name": "stream-value-reader",
+  "version": "0.0.0",
+  "description": "Concat a stream and use the value multiple times",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/kodedninja/stream-value-reader"
+  },
+  "keywords": [
+    "stream",
+    "concat-stream"
+  ],
+  "author": "kodedninja",
+  "license": "ISC",
+  "dependencies": {
+    "concat-stream": "^2.0.0",
+    "pump": "^3.0.0"
+  },
+  "devDependencies": {
+    "tape": "^4.11.0"
+  }
+}
